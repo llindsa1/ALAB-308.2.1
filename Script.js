@@ -5,6 +5,7 @@ constant area= PI*radius*radius;
 
 const minimum space per plant= 0.8
 const number of plants=20;
+const maximumcapacity = math.floor(area/minimum space per plant);
 
 const capacity80=0.8*max capacity;
 const capcity50=0.5*max capacity;
@@ -17,3 +18,7 @@ if (number of plants > capacity80) {
 } else {
     console.log(Grow more plants);
 }
+
+//Part 2
+
+
